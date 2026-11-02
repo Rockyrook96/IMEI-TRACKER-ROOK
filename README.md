@@ -1,2 +1,37 @@
 # IMEI-TRACKER-ROOK
+
 IMEI-TRACKER - simple and effective tool designed to easily track and recover lost mobile phones using their IMEI number. Use this to ensure the security of your device.
+Here is a clear, professional project description for your IMEI lookup and tracking tool designed to run on Kali Linux. You can use this for your GitHub README.md, personal portfolio, or project documentation.
+
+
+<img width="2000" height="750" alt="IMEI" src="https://github.com/user-attachments/assets/5b4f207c-2901-4422-89d1-b5803b46af67" />
+
+IMEI Tracker & Query Tool for Kali Linux 📌 Overview This project is a lightweight, command-line and GUI-compatible utility developed for Kali Linux that streamlines the process of querying, validating, and analyzing International Mobile Equipment Identity (IMEI) numbers. Built with security researchers, penetration testers, and forensics analysts in mind, the tool allows users to extract device specifications, check database registries, and run structural validation checks directly from a Linux environment.
+GitHub
+
+🚀 Key Features TAC (Type Allocation Code) Lookup: Automatically parses the first 8 digits of an IMEI to identify the device manufacturer, brand, model, and hardware specifications.
+
+Luhn Algorithm Validation: Runs mathematical checksum verifications on 14-digit or 15-digit IMEI inputs to confirm formatting authenticity and prevent data entry errors.
+GitHub
+
+Blacklist & Status Checking: Interfaces with data modules to verify if a device has been flagged, reported lost, or blocked on cellular networks.
+GitHub
+
+Kali Linux Integration: Fully optimized for Debian-based penetration testing distributions, running smoothly via Python 3 and standard Linux terminal packages.
+GitHub
+
+Modular Scripting: Can be integrated into larger OSINT (Open Source Intelligence) or digital forensics pipelines.
+
+💻 System Requirements & Dependencies Because this tool is built for Kali Linux, it requires Python 3 and a few standard libraries to handle web requests and data parsing.
+
+Tested Environment OS: Kali Linux (Rolling / 2026 release)
+
+Language: Python 3.x
+
+Required Libraries requests (for API querying and web lookups)
+GitHub
+
+beautifulsoup4 (for HTML parsing where applicable)
+GitHub
+
+
